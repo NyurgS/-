@@ -9,3 +9,154 @@
   <p>Тел.:+7(495)956-20-67</p>
 </body>
 </html>
+<head>
+  <meta charset="utf-8">
+  <title>TESTTASK</title>
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+      <div class="header__logo">TESTTASK</div>
+      <nav class="header__menu nav">
+          <a class="nav__item">About me</a>
+          <a class="nav__item">Relationships</a>
+          <a class="nav__item">Requirements</a>
+          <a class="nav__item">Users</a>
+          <a class="nav__item">Sign Up</a>
+      </nav>
+  </header>
+  <main class="main">
+      <section class="top-section">
+          <div class="text">
+              <h1 class="text__title">
+                  TEST ASSIGMENT<br>FOR FRONTEND DEVELOPER POSITION
+              </h1>
+              <p class="text__description">
+                  We kindly remind your test assigment sould be submitted
+                  as a link to github/bitbucket repository. pleas be patient, we consider
+                  and respond to every aplication that meets minimum requirements.
+                  We look forvard to your submission. Good luck! The photo has to scale
+                  in the banner area on the different screens
+              </p>
+              <button class="text__button">
+                  Sing up now
+              </button>
+          </div>
+      </section>
+      <section class="about">
+          <h1 class="about__title">Let's get acquainted</h1>
+          <div class="description">
+              <h3 class="description__subtitle">I am cool frontend devoloper</h3>
+              <p class="description__text">
+                  We will evaluate how clean your approach to writing CSS and Javascript
+                  code is. You can use any CSS and Javascript 3rd party libraries without any restriction.
+              </p>
+              <p class="description__text">
+                  If 3rd party css/javascript libraryes are to the projectvia 
+                  brower/npm/yarn you will get bonus points. If you use any task runner
+                  (gulp/webpack) you will get bonus points as well. Slice service directory
+                  page PSD mockup into HTML5/CSS3.
+              </p>
+              <p class="description__text description__text_color_red">Sing up now</p>
+          </div>
+      </section>
+      <section>
+          <div class="user-section">
+              <div class="user-section__title">
+                  <h1>Our cheerful users</h1>
+                  <p>Atttention! Sorting users by registrstion date</p>
+              </div>
+              <div class="user-section__users users">
+                <div class="users__user">
+                  <img src="./img/prog.png">
+                  <h3>Maximillian</h3>
+                  <p>Leading spesialist of the Control Departament</p>
+                  <p title="controldepartament@gmail">controldepartament@gmail</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/Blaine.png">
+                  <h3>Adolph Blaine Charles David Earl Matthew Matthew</h3>
+                  <p>Contextual advertising spesialist</p>
+                  <p title="adolph.blainecharles@...">adolph.blainecharles@...</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/eliz.png">
+                  <h3>Elisabeth</h3>
+                  <p>Frontend devoloper</p>
+                  <p title="elisabeth.front@gmail.com">elisabeth.front@gmail.com</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/Jayden.png">
+                  <h3>Alexander Jayden</h3>
+                  <p>Backend devoloper</p>
+                  <p title="alexander.basck@gmail.com">alexander.basck@gmail.com</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/QA.png">
+                  <h3>Noah</h3>
+                  <p>QA</p>
+                  <p title="noah1998@gmail.com">noah1998@gmail.com</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/Wiam.png">
+                  <h3>Liamgrievescasey Smith Wiam</h3>
+                  <p>Lead designer</p>
+                  <p title="liamgrievescasey.smith@example.com">liamgrievescasey.smith@...</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+            </div>
+            <button class="user-section__button">Show more</button>
+          </div>
+      </section>
+  </main>
+  <footer class="footer">
+      <form class="form">
+        <h1 class="form__title">Register to get a work</h1>
+        <p class="form__text">
+            Atttention! After successful registration and alert, update 
+             the list of users in the block form the top
+        </p>
+        <label class="form__label" for="name">Name</label>
+        <input class="form__input" placeholder="Your name" id="name">
+        <label class="form__label" for="email">Email</label>
+        <input class="form__input" placeholder="Your email" id="email">
+        <label class="form__label" for="phone">Phone number</label>
+        <input class="form__input" placeholder="+380 XX XXX XX XX" id="phone">
+        <p class="form__lower-text">Enter phone number in open format</p>
+        <p class="form__text-left">Select yore position</p>
+        <div class="form__picer picer">
+          <div>
+            <input type="radio" name="position" id="frontend">
+            <Label for="frontend">Frontend devoloper</Label>
+          </div>
+          <div>
+            <input type="radio" name="position" id="backend">
+            <Label for="backend">Backend devoloper</Label>
+          </div>
+          <div>
+            <input type="radio" name="position" id="designer">
+            <Label for="designer">Designer</Label>
+          </div>
+          <div>
+            <input type="radio" name="position" id="qa">
+            <Label for="qa">QA</Label>
+          </div>
+        </div>
+        <p class="form__text-left">Photo</p>
+        <div class="form__file-add">
+            <span>Upload your photo</span>
+            <input type="file" id="file">
+            <label for="file">Browse</label>
+        </div>
+        <button class="form__button-lower">Sing up now</button>
+      </form>
+  </footer>
+  <div class="copyright">&#169; abz.agensy specially for the test task</div>
+</body>
+</html>
