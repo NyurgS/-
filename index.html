@@ -1,4 +1,5 @@
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="ru" class="js-focus-visible" data-js-focus-visible>
 <head>
   <meta charset="utf-8">
   <title>TESTTASK</title>
@@ -20,7 +21,7 @@
       <section class="top-section">
           <div class="text">
               <h1 class="text__title">
-                  TEST ASSIGMENT FOR FRONTEND DEVELOPER POSITION
+                  TEST ASSIGMENT<br>FOR FRONTEND DEVELOPER POSITION
               </h1>
               <p class="text__description">
                   We kindly remind your test assigment sould be submitted
@@ -58,48 +59,50 @@
                   <p>Atttention! Sorting users by registrstion date</p>
               </div>
               <div class="user-section__users users">
-                  <img src="./img/photo-cover/svg">
+                <div class="users__user">
+                  <img src="./img/prog.png">
                   <h3>Maximillian</h3>
                   <p>Leading spesialist of the Control Departament</p>
                   <p title="controldepartament@gmail">controldepartament@gmail</p>
                   <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-              </div>
-              <div class="user-section__users users">
-                <img src="./img/photo-cover/svg">
-                <h3>Adolph Blaine Charles David Earl Matthew Matthew</h3>
-                <p>Contextual advertising spesialist</p>
-                <p title="adolph.blainecharles@...">adolph.blainecharles@...</p>
-                <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/Blaine.png">
+                  <h3>Adolph Blaine Charles David Earl Matthew Matthew</h3>
+                  <p>Contextual advertising spesialist</p>
+                  <p title="adolph.blainecharles@...">adolph.blainecharles@...</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/eliz.png">
+                  <h3>Elisabeth</h3>
+                  <p>Frontend devoloper</p>
+                  <p title="elisabeth.front@gmail.com">elisabeth.front@gmail.com</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/Jayden.png">
+                  <h3>Alexander Jayden</h3>
+                  <p>Backend devoloper</p>
+                  <p title="alexander.basck@gmail.com">alexander.basck@gmail.com</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/QA.png">
+                  <h3>Noah</h3>
+                  <p>QA</p>
+                  <p title="noah1998@gmail.com">noah1998@gmail.com</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
+                <div class="users__user">
+                  <img src="./img/Wiam.png">
+                  <h3>Liamgrievescasey Smith Wiam</h3>
+                  <p>Lead designer</p>
+                  <p title="liamgrievescasey.smith@example.com">liamgrievescasey.smith@...</p>
+                  <p title="+380 50 678 03 24">+380 50 678 03 24</p>
+                </div>
             </div>
-            <div class="user-section__users users">
-                <img src="./img/photo-cover/svg">
-                <h3>Elisabeth</h3>
-                <p>Frontend devoloper</p>
-                <p title="elisabeth.front@gmail.com">elisabeth.front@gmail.com</p>
-                <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-            </div>
-            <div class="user-section__users users">
-                <img src="./img/photo-cover/svg">
-                <h3>Alexander Jayden</h3>
-                <p>Backend devoloper</p>
-                <p title="alexander.basck@gmail.com">alexander.basck@gmail.com</p>
-                <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-            </div>
-            <div class="user-section__users users">
-                <img src="./img/photo-cover/svg">
-                <h3>Noah</h3>
-                <p>QA</p>
-                <p title="noah1998@gmail.com">noah1998@gmail.com</p>
-                <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-            </div>
-            <div class="user-section__users users">
-                <img src="./img/photo-cover/svg">
-                <h3>Liamgrievescasey Smith Wiam</h3>
-                <p>Lead designer</p>
-                <p title="liamgrievescasey.smith@example.com">liamgrievescasey.smith@...</p>
-                <p title="+380 50 678 03 24">+380 50 678 03 24</p>
-            </div>
-              <button class="user-section__button">Show more</button>
+            <button class="user-section__button">Show more</button>
           </div>
       </section>
   </main>
@@ -107,8 +110,8 @@
       <form class="form">
         <h1 class="form__title">Register to get a work</h1>
         <p class="form__text">
-            Atttention! After successful registration and alert? update 
-            list of users in the block form the top
+            Atttention! After successful registration and alert, update 
+             the list of users in the block form the top
         </p>
         <label class="form__label" for="name">Name</label>
         <input class="form__input" placeholder="Your name" id="name">
@@ -119,29 +122,30 @@
         <p class="form__lower-text">Enter phone number in open format</p>
         <p class="form__text-left">Select yore position</p>
         <div class="form__picer picer">
-            <div>
-                <input type="radio" name="position" id="frontend">
-                <Label for="frontend">Frontend devoloper</Label>
-            </div>
-            <div>
-                <input type="radio" name="position" id="backend">
-                <Label for="backend">Backend devoloper</Label>
-            </div>
-            <div>
-                <input type="radio" name="position" id="designer">
-                <Label for="designer">Designer</Label>
-            </div>
-            <div>
-                <input type="radio" name="position" id="qa">
-                <Label for="qa">QA</Label>
-            </div>
-            <p class="form__text-left">Photo</p>
-            <div>
-                <span>Upload your photo</span>
-                <input type="file" id="file">
-                <label for="file">Browse</label>
-            </div>
+          <div>
+            <input type="radio" name="position" id="frontend">
+            <Label for="frontend">Frontend devoloper</Label>
+          </div>
+          <div>
+            <input type="radio" name="position" id="backend">
+            <Label for="backend">Backend devoloper</Label>
+          </div>
+          <div>
+            <input type="radio" name="position" id="designer">
+            <Label for="designer">Designer</Label>
+          </div>
+          <div>
+            <input type="radio" name="position" id="qa">
+            <Label for="qa">QA</Label>
+          </div>
         </div>
+        <p class="form__text-left">Photo</p>
+        <div class="form__file-add">
+            <span>Upload your photo</span>
+            <input type="file" id="file">
+            <label for="file">Browse</label>
+        </div>
+        <button class="form__button-lower">Sing up now</button>
       </form>
   </footer>
   <div class="copyright">&#169; abz.agensy specially for the test task</div>
